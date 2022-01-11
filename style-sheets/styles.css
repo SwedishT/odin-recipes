@@ -9,19 +9,19 @@
 .recipe {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
-    color: lightslategrey;
+    color: white;
 }
 
 .recipe.pot-roast {
-    background-color: rgb(red, white, blue);
+    background-color: red;
 }
 
 .recipe.tacos {
-    background-color: rgb(green, white, red);
+    background-color: green;
 }
 
 .recipe.brownies {
-    background-color: rgb(green, white, orange);
+    background-color: orange;
 }
 
 .title-brownies {
@@ -30,4 +30,18 @@
     color: white;
     background-color: orange;
 
+}
+
+.title-tacos {
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: red;
+}
+
+.title-pot-roast {
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: green;
 }
