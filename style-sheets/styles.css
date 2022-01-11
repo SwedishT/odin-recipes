@@ -1,9 +1,33 @@
 .main-title {
     font-size: 36px;
-    background-color: wheat;
+    background-color: darkred;
+    color: white;
     text-align: center;
+    font-family: cursive, 'Times New Roman', Times, serif;
 }
 
 .recipe {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: lightslategrey;
+}
+
+.recipe.pot-roast {
+    background-color: rgb(red, white, blue);
+}
+
+.recipe.tacos {
+    background-color: rgb(green, white, red);
+}
+
+.recipe.brownies {
+    background-color: rgb(green, white, orange);
+}
+
+.title-brownies {
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: orange;
+
 }
